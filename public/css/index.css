@@ -1,0 +1,102 @@
+body {
+    /* min-height: 75rem; /* Can be removed; just added for demo purposes */ */
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-image: url('../img/dawn_valley_forge.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 0px;
+  height: 520px;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+#about {
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  outline: 1px solid grey;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+.card-deck {
+  padding: 10px;
+}
+
+footer {
+  /*padding-top: 3rem;
+  padding-bottom: 3rem;*/
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+#contact {
+  width: 100%;
+  background-color: black;
+  text-align:center;
+}
+
+#contact .text {
+  color: white;
+  font-size: 1.4em;
+}
+
+#contact .fa {
+  display:inline-block;
+  vertical-align:middle;
+  font-size: 2.2em;
+  background-color: #fff;
+  border: 4px solid #E6E6FA;
+  border-radius: 50%;
+  height: 52px;
+  line-height: 44px;
+  width: 52px;
+  margin: 10px 30px;
+}
+.fa-linkedin {
+  color: #0084BF;
+}
+.fa-github {
+  color: #24292E;
+}
+.fa-twitter {
+  color: #1DA1F2;
+}
+.fa-envelope {
+  color: #CD3E2D;
+}
