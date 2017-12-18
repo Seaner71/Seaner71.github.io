@@ -24,6 +24,10 @@ body {
 .jumbotron-heading {
   font-weight: 300;
 }
+
+.dev-icon {
+  font-size: 4em;
+}
 #about {
   padding-top: 3em;
   padding-bottom: 1em;
