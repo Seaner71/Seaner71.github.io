@@ -1,9 +1,13 @@
+/* body {
+    /* min-height: 75rem; /* Can be removed; just added for demo purposes
+} */
 body {
-    /* min-height: 75rem; /* Can be removed; just added for demo purposes */ */
-}
+      position: relative;
+  }
 
 .navbar {
   margin-bottom: 0;
+  background-color: black;
 }
 
 .jumbotron {
@@ -29,8 +33,11 @@ body {
   font-size: 4em;
 }
 #about {
-  padding-top: 3em;
+  padding-top: 70px;
   padding-bottom: 1em;
+}
+#projects {
+  padding-top: 70px;
 }
 .carousel-item {
   max-height: 600px;
@@ -63,19 +70,20 @@ body {
   padding: 10px;
 }
 
-footer {
-  /*padding-top: 3rem;
-  padding-bottom: 3rem;*/
-}
-
+/* .img-fluid {
+  height: 200px;
+  width: 250px;
+  border-radius: 50%;
+} */
 footer p {
-  margin-bottom: .25rem;
+  margin-bottom: .5rem;
 }
 
 #contact {
   width: 100%;
   background-color: black;
   text-align:center;
+  padding-top: 50px;
 }
 
 #contact .text {
