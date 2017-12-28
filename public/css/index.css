@@ -51,12 +51,12 @@ body {
 }
 
 .card {
-  float: left;
-  width: 33.333%;
+  /* float: left;
+  width: 33.333%; */
   padding: .75rem;
   margin-bottom: 2rem;
   border: 0;
-  outline: 1px solid grey;
+  outline: 2px solid grey;
 }
 
 .card > img {
